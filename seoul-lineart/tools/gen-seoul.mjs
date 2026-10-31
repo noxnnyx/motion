@@ -109,13 +109,13 @@ function cloud(x, y, w) {
   stroke("sky", sline(x2, y2, x2 + w2, y2 + rr(-3, 3), 1.2), "k4", x2, x2 + w2);
 }
 cloud(60, 190, 380);
-cloud(520, 120, 300);
-cloud(860, 260, 260);
-cloud(1120, 150, 220);
+cloud(540, 58, 260);
+cloud(610, 400, 210);
+cloud(1150, 52, 200);
 cloud(1700, 360, 200);
 // birds
 for (let i = 0; i < 9; i++) {
-  const bx = rr(980, 1300), by = rr(300, 420), s = rr(5, 10);
+  const bx = rr(1080, 1300), by = rr(370, 440), s = rr(5, 10);
   stroke("sky", `M${f(bx - s)},${f(by - s * 0.5)}Q${f(bx - s * 0.4)},${f(by - s * 0.6)} ${f(bx)},${f(by)}Q${f(bx + s * 0.4)},${f(by - s * 0.6)} ${f(bx + s)},${f(by - s * 0.55)}`, "k2", bx, bx + 2 * s, { min: 0.3 });
 }
 

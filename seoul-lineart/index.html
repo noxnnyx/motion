@@ -53,6 +53,27 @@
         data-width="1920"
         data-height="1080"
       ></div>
+      <div
+        id="message"
+        class="clip"
+        data-composition-id="message"
+        data-composition-src="compositions/message.html"
+        data-start="0"
+        data-duration="30"
+        data-track-index="2"
+        data-track-kind="graphics"
+        data-width="1920"
+        data-height="1080"
+        style="z-index: 2"
+      ></div>
+      <audio
+        id="music"
+        src="assets/music/seoul-morning.wav"
+        data-start="0"
+        data-duration="30"
+        data-track-index="3"
+        data-volume="1"
+      ></audio>
     </div>
     <script>
       window.__timelines["main"] = gsap.timeline({ paused: true });
